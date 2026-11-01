@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/zambia-land-lots",
+  "title": "Zambia Land Lots (Ministry of Lands lot index)",
+  "description": "Zambian state-cadastre lot index by lot key or coordinates, with each lot's point and extent.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/zambia-land-lots-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/zambia",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/zambia"
+    }
+  ]
+}
